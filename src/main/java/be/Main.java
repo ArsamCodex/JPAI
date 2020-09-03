@@ -10,7 +10,7 @@ public class Main {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("datasource");
         EntityManager em = emf.createEntityManager();
 
-        Message message = new Message().setId(10).setMessage("arsam");
+        Message message = new Message().setId().setMessage("ph");
 
         EntityTransaction et = em.getTransaction();
         et.begin();
