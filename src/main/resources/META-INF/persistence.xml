@@ -6,8 +6,8 @@
         <properties>
             <!-- database connection -->
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://moktok.javawebdev.com:33306/armin" />
-            <property name="javax.persistence.jdbc.user" value="armin" />
-            <property name="javax.persistence.jdbc.password" value="armin2020" />
+            <property name="javax.persistence.jdbc.user" value="************" />
+            <property name="javax.persistence.jdbc.password" value="**********" />
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect" />
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>
@@ -15,3 +15,7 @@
         </properties>
     </persistence-unit>
 </persistence>
+
+
+
+PASSWORD REMOVED //
