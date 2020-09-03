@@ -17,14 +17,6 @@ public class Main {
         em.persist(message);
         et.commit();
 
-
-//        User user = em.find(User.class, 17);
-//        user.setUsername("Chocolate Chipolata");
-//        System.out.println(user.toString());
-//
-//        em.refresh(user);
-//        System.out.println(user.toString());
-
         em.close();
         emf.close();
     }
